@@ -30,3 +30,12 @@ func findPrimeFactors(_ number: Int) -> [Int] {
 print(findPrimeFactors(64))
 print(findPrimeFactors(999))
 print(findPrimeFactors(5436789076598767))
+
+/*
+ Output:
+    [2, 2, 2, 2, 2, 2]
+    [3, 3, 3, 37]
+    [137, 761, 52147952431]
+ 
+ runtime: O(sqrt(n))
+ */
